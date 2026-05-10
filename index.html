@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Genres to consider in 2026</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+
+            <h1>MovieVerse</h1>
+        </div>
+        <div id="navbar-toggler" class="open">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#romance">Romance</a></li>
+                <li><a href="#horror">Horror</a></li>
+                <li><a href="#comedy">Comedy</a></li>
+                <li><a href="#action">Action</a></li>
+                <li><a href="#animation">Animation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <ul>
+        <li><strong>Romance:</strong> Romance movies focus on love and relationships, often featuring emotional and heartwarming stories.</li>
+        <li><strong>Horror:</strong> Horror movies are designed to scare audiences with suspense, supernatural elements, and unexpected twists.</li>
+        <li><strong>Comedy:</strong> Comedy movies are created to make people laugh with humorous characters and funny situations.</li>
+        <li><strong>Action:</strong> Action movies feature exciting sequences such as fights, car chases, and heroic adventures.</li>
+        <li><strong>Animation:</strong> Animation movies use illustrated or computer-generated characters to tell imaginative stories.</li>
+    </ul> -->
+
+    <main>
+        <h1>Movie Genres to consider in 2026</h1>
+        <section class="slideshow-section">
+            <div class="slide active" id="slide-1">
+                <h2>Romance</h2>
+                <img src="romance.jpg">
+            </div>
+            <div class="slide" id="slide-2">
+                <h2>Horror</h2>
+                <img src="horror.jpg">
+            </div>
+            <div class="slide" id="slide-3" active>
+                <h2>Comedy</h2>
+                <img src="comedy.jpg">
+            </div>
+            <div class="slide" id="slide-4">
+                <h2>Action</h2>
+                <img src="action.jpg">
+            </div>
+            <div class="slide" id="slide-5">
+                <h2>Animation</h2>
+                <img src="animation.jpg">
+            </div>
+            <div class="slide-select-buttons">
+                <button class="slide-select-button active" id="select-btn-1" onclick="activateSlide(1)"></button>
+                <button class="slide-select-button" id="select-btn-2" onclick="activateSlide(2)"></button>
+                <button class="slide-select-button" id="select-btn-3" onclick="activateSlide(3)"></button>
+                <button class="slide-select-button" id="select-btn-4" onclick="activateSlide(4)"></button>
+                <button class="slide-select-button" id="select-btn-5" onclick="activateSlide(5)"></button>
+            </div>
+        </section>
+        <section id="romance">
+            <h2>Romance</h2>
+            <div class="car-content">
+                <div>
+                    <p>Romance movies focus on love and relationships, often telling emotional stories about couples overcoming challenges.</p>
+                    <ul>
+                        <li>Theme: Love, relationships, and emotional connections</li>
+                        <li>Popular Movies: Titanic, The Notebook, La La Land</li>
+                        <li>Mood: Heartwarming, dramatic, and sentimental</li>
+                    </ul>
+                </div>
+
+                <img src="romance.jpg" alt="Romance Movies" class="car-image">
+            </div>
+        </section>
+        <section id="horror">
+            <h2>Horror</h2>
+            <div class="car-content">
+                <div>
+                    <p>Horror movies are designed to scare audiences using suspense, supernatural elements, and unexpected twists.</p>
+                    <ul>
+                        <li>Theme: Fear, suspense, and mystery</li>
+                        <li>Popular Movies: The Conjuring, It, A Quiet Place</li>
+                        <li>Mood: Tense, frightening, and thrilling</li>
+                    </ul>
+                </div>
+                <img src="horror.jpg" alt="Horror Movies" class="car-image">
+            </div>
+        </section>
+        <section id="comedy">
+            <h2>Comedy</h2>
+            <div class="car-content">
+                <div>
+                    <p>Comedy movies are created to make people laugh through humorous characters and entertaining situations.</p>
+                    <ul>
+                        <li>Theme: Humor, fun, and lighthearted stories</li>
+                        <li>Popular Movies: Home Alone, Superbad, The Hangover</li>
+                        <li>Mood: Funny, cheerful, and relaxing</li>
+                    </ul>
+                </div>
+
+                <img src="comedy.jpg" alt="Comedy Movies" class="car-image">
+            </div>
+        </section>
+        <section id="action">
+            <h2>Action</h2>
+            <div class="car-content">
+                <div>
+                    <p>Action movies feature exciting scenes such as fights, car chases, explosions, and heroic adventures.</p>
+                    <ul>
+                        <li>Theme: Adventure, danger, and heroism</li>
+                        <li>Popular Movies: John Wick, Mission: Impossible, Mad Max: Fury Road</li>
+                        <li>Mood: Fast-paced, intense, and exciting</li>
+                    </ul>
+                </div>
+
+                <img src="action.jpg" alt="Action Movies" class="car-image">
+            </div>
+        </section>
+        <section id="animation">
+            <h2>Animation</h2>
+            <div class="car-content">
+                <div>
+                    <p>Animation movies use illustrated or computer-generated characters to tell imaginative stories for all ages.</p>
+                    <ul>
+                        <li>Theme: Creativity, fantasy, and adventure</li>
+                        <li>Popular Movies: Toy Story, Frozen, Spider-Man: Into the Spider-Verse</li>
+                        <li>Mood: Colorful, imaginative, and family-friendly</li>
+                    </ul>
+                </div>
+                <img src="animation.jpg" alt="Animation Movies" class="car-image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MovieVerse. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
